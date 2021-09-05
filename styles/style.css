@@ -328,7 +328,7 @@
   padding: 0;
   margin: 0;
 }
-.footer__content-list-links a {
+.footer__content-links {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
