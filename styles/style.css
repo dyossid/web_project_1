@@ -282,10 +282,7 @@
   justify-content: center;
 }
 .footer__columns {
-  position: absolute;
-  top: 60px;
-  bottom: 40px;
-  margin: 0 auto;
+  margin: 60px auto 40px;
   width: 90%;
   display: flex;
   justify-content: space-between;
