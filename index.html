@@ -22,7 +22,11 @@
           <a class="header__link" href="#">Learn more 🡒</a>
         </p>
         <div class="header__square-pic"></div>
-        <img class="header__main-illustration" src="images/header-image.png" />
+        <img
+          class="header__main-illustration"
+          alt="blonde guy on a mountain image"
+          src="images/header-image.png"
+        />
       </header>
       <main class="content">
         <section class="description">
@@ -62,7 +66,7 @@
         <section class="digits">
           <h2 class="section-title">Facts and figures</h2>
           <p class="section-subtitle">On learning and the brain</p>
-          <list class="table">
+          <div class="table">
             <div class="table__cell">
               <p class="table__heading">86 billion</p>
               <p class="table__text">
@@ -74,8 +78,9 @@
               <p class="table__text">
                 The percentage of adults in the US who consider themselves
                 lifelong learners
-                <p class="table__text">Pew Research Center</p>
               </p>
+
+              <p class="table__text">Pew Research Center</p>
             </div>
             <div class="table__cell">
               <p class="table__heading">1,000 terabytes</p>
@@ -95,7 +100,9 @@
               <p class="table__text">
                 The number of adults under 25 with insufficient education for
                 finding employment
-                <p class="table__text">World Bank, 2017</p>
+              </p>
+
+              <p class="table__text">World Bank, 2017</p>
             </div>
             <div class="table__cell">
               <p class="table__heading">26 years old</p>
@@ -114,12 +121,12 @@
                 Publication of Ivan Pavlov's research on classical conditioning
               </p>
             </div>
-          </list>
+          </div>
         </section>
         <section class="feynman">
           <h2 class="feynman__title">The Feynman Technique</h2>
           <p class="feynman__subtitle">Learn without forgetting</p>
-          <a class="feynman__link" link href="#">More →</a>
+          <a class="feynman__link" href="#">More →</a>
           <img
             class="feynman__background-image"
             src="images/feynman.png"
@@ -131,7 +138,7 @@
             Ten principles of rapid skill acquisition
           </h2>
           <p class="section-subtitle_theme-dark">by Josh Kaufman</p>
-          <list class="table_theme-dark">
+          <div class="table_theme-dark">
             <ul class="table__cell_theme-dark">
               <li>
                 <p class="table__heading_theme-dark">1</p>
@@ -188,7 +195,7 @@
                 </p>
               </li>
             </ul>
-          </list>
+          </div>
           <img
             class="kaufman__triangle"
             src="images/kaufman-triangle.svg"
@@ -207,9 +214,9 @@
             />
             <p class="footer__author">© 2021 "Yossi.D."</p>
           </div>
-          <div class="footer__column_content-about">
+          <nav class="footer__column_content-about">
             <h5 class="footer__column-heading">About Practicum by Yandex</h5>
-            <nav class="footer__list">
+            <ul class="footer__list">
               <li>
                 <a class="footer__column-link" href="#">Home page</a>
               </li>
@@ -219,18 +226,19 @@
               <li>
                 <a class="footer__column-link" href="#">Professions</a>
               </li>
-            </nav>
-          </div>
-          <div class="footer__columns_content-social">
+            </ul>
+          </nav>
+          <nav class="footer__columns_content-social">
             <h5 class="footer__column-heading">Social media</h5>
-            <nav class="footer__list">
+            <ul class="footer__list">
               <li>
                 <a class="footer__column-link" href="#">
                   <img
                     class="footer__social-icons"
                     src="images/facebook_white.svg"
                     alt="Facebook icon logo"
-                  />Facebook</a>
+                  />Facebook</a
+                >
               </li>
               <li>
                 <a class="footer__column-link" href="#">
@@ -241,8 +249,8 @@
                   />Instagram</a
                 >
               </li>
-            </nav>
-          </div>
+            </ul>
+          </nav>
         </div>
       </footer>
     </div>
