@@ -271,7 +271,7 @@
   display: flex;
   justify-content: space-between;
 }
-.footer__column_content_copyright {
+.footer__column_content-copyright {
   margin: 0;
   font-weight: normal;
   display: flex;
