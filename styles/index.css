@@ -20,9 +20,9 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__item/_blank/cards__item_blank.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__title/_blank/cards__title_blank.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
@@ -57,6 +57,7 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
 @import url(../blocks/oakley/oakley.css);
+@import url(../blocks/resources/resources.css);
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__author/khan__author.css);
