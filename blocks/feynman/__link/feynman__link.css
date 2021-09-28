@@ -6,7 +6,7 @@
   position: absolute;
   color: #2f80ed;
   text-decoration: none;
-  top: 50vh;
+  top: 50%;
   right: 48px;
 }
 .feynman__link:hover {
